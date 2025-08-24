@@ -1,0 +1,16 @@
+
+.middle::before{
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.green-inverse{
+    
+    background: var(--acent-clr);
+    color: var(--fix-clr);
+    border: .1rem solid var(--acent-clr);
+}
+
+.p-bottom-1{
+    padding-bottom: 1rem;
+}

@@ -1,0 +1,85 @@
+form{
+    flex: 2;
+    flex-basis: 300px;
+}
+.info{
+    flex: 1;
+    flex-basis: 200px;
+    
+}
+.details{
+    background: var(--surface-clr);
+    padding: 1.5rem;
+    border-radius: 1rem 1rem 0 0;
+     border: .1rem solid rgba(123, 123,123, 0.2);
+     
+}
+.details h6{
+    font-size: 1.5rem;
+    text-align: start;
+}
+
+.bg-header{
+    padding: 1.5rem;
+    background-image: url('../../assets/background.jpeg');
+    background-size: 200%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+}
+
+.rounded-b{
+    border-radius: 0 0 1rem 1rem;
+}
+
+.rounded-b h5{
+    font-size: 1.5rem;
+    
+}
+
+.black-inverse{
+    background: var(--fix-clr);
+    border: .1rem solid var(--background-clr);
+    color: var(--acent-clr);
+
+}
+.icon-container:hover.black-inverse{
+    color: var(--background-clr);
+    background: transparent;
+}
+
+.input-container{
+    flex: 1;
+}
+
+label{
+    font-size: .9rem;
+    color: var(--text-primary-clr);
+}
+
+.input-field{
+    width: 100%;
+    background: var(--surface-clr);
+    border: .1rem solid rgba(123, 123,123, 0.2);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-top: .5rem;
+    color: var(--text-primary-clr); 
+}
+
+.input-field::placeholder,
+textarea::placeholder {
+    color: #aaa; /* lighter placeholder */
+}
+.input-field:focus{
+    outline: .09rem solid var(--acent-clr);
+   
+}
+
+.input-field::placeholder{
+    color: gray;
+}
+
+textarea{
+    resize: none;
+}
